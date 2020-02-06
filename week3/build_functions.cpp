@@ -30,7 +30,8 @@ char  get_user_input()
    return userchar; 
 }
 
-void to_upper_case(char &letter){
+void to_upper_case(char &letter)
+{
    //Implement this function
    if(letter > 96 && letter < 123)
    {
