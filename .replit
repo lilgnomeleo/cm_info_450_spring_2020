@@ -1,3 +1,2 @@
 language = "cpp"
-run = "
-poop lole
+run = "gcc program2.cpp"
