@@ -17,7 +17,7 @@ int main(){
         num++;
     }
     // if nxtName is empty kills the do loop
-    while(nxtName[0]);
+    while(nxtName[0] || num >= 30);
 
     //print the array on a new line each time
     for(int i = 0; i < num-1; i++){
