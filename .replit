@@ -1,2 +1,0 @@
-language = "cpp"
-run = "gcc program2.cpp"
