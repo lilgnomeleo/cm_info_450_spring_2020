@@ -8,7 +8,6 @@ void savings::DoWithdraw(double amount){
     MakeWithdraw(amount);
 }
 
-savings::savings():Account(){}
 savings::savings(string name, long taxID, double balance):
 Account(name,taxID,balance){}
 
